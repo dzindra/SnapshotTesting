@@ -16,7 +16,7 @@ class ViewControllerTests: FBSnapshotTestCase {
     override func setUp() {
         super.setUp()
         isDeviceAgnostic = true
-//        recordMode = true
+        recordMode = ProcessInfo.processInfo.environment["RECORD_MODE"] != nil
     }
 
     

@@ -4,32 +4,26 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Nimble (6.0.1)
-  - Quick (1.1.0)
   - R.swift (3.2.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
-  - Swinject (2.0.0)
-  - SwinjectStoryboard (1.0.0):
-    - Swinject (= 2.0.0)
+  - Swinject (2.1.0)
+  - SwinjectStoryboard (1.1.1):
+    - Swinject (~> 2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - Nimble
-  - Quick
   - R.swift
   - Swinject
   - SwinjectStoryboard
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
-  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
   R.swift: 207a372a2b5977caef440c696a368009460641d1
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
-  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
-  SwinjectStoryboard: 8e0d3c0202b64172bdf915d55e8dc83d9c4e7863
+  Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
+  SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
 
-PODFILE CHECKSUM: 59d7ff9cadf6edfac9a679f888d19db2cef67195
+PODFILE CHECKSUM: 4bdcd92109109e906f7a9d007ac34ddb9494328e
 
-COCOAPODS: 1.2.1.beta.1
+COCOAPODS: 1.2.0

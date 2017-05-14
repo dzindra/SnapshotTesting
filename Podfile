@@ -6,23 +6,14 @@ inhibit_all_warnings!
 use_frameworks!
 
 
-def all_pods
+target 'SnapshotTesting' do
     pod 'R.swift'
     pod 'Swinject'
     pod 'SwinjectStoryboard'
-end
-
-abstract_target 'Base' do
-    all_pods
-    
-    target 'SnapshotTesting' do
-    end
     
     target 'SnapshotTestingTests' do
-        #inherit! :search_paths
+        inherit! :search_paths
         
-        pod 'Quick'
-        pod 'Nimble'
         pod 'FBSnapshotTestCase'
     end
 end

@@ -70,7 +70,7 @@ class MemeGeneratorDetailController: UITableViewController, MemeAware {
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.memeGeneratorInputCell, for: indexPath)!
-            cell.hintLabel.text = R.string.localizable.hintTopLine()
+            //cell.hintLabel.text = R.string.localizable.hintTopLine()
             cell.textChangeBlock = { [weak self] s in
                 self?.topLine = s
             }

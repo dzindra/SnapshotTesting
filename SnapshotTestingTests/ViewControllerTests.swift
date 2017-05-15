@@ -24,14 +24,15 @@ class ViewControllerTests: FBSnapshotTestCase {
         let vc = R.storyboard.main.memeList()!
         let model = StaticMemeListViewModel(state: .Empty)
         
+        // if you use more than one view verify in one test method you need to provide additional identifier
         vc.viewModel = model
-        FBSnapshotVerifyView(vc.view,identifier:"empty")
+        FBSnapshotVerifyView(vc.view, identifier: "empty")
         
         model.state = .Loading
-        FBSnapshotVerifyView(vc.view,identifier:"loading")
+        FBSnapshotVerifyView(vc.view, identifier: "loading")
         
         model.state = .Ready(Meme.memes)
-        FBSnapshotVerifyView(vc.view,identifier:"ready")
+        FBSnapshotVerifyView(vc.view, identifier: "ready")
     }
     
     func testMemeDetailViewController() {

@@ -1,3 +1,3 @@
 # SnapshotTesting
 
-Demo project for Snapshot Testing talk
+Demo project for Snapshot Testing 101 talk
